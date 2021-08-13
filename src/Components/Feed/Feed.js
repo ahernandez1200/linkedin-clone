@@ -6,14 +6,13 @@ import SubscriptionIcon from "@material-ui/icons/Subscriptions"
 import EventNoteIcon from "@material-ui/icons/EventNote"
 import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay"
 
-import InputOption from './InputOption';
-import Post from './Post.js';
+import InputOption from '../InputOption/InputOption.js';
+import Post from '../Post/Post.js';
 import firebase from 'firebase';
-import {db, auth} from "./firebase.js";
-import { selectUser } from './features/userSlice';
+import {db, auth} from "../Database/firebase.js";
+import { selectUser } from '../../features/userSlice';
 import { useSelector } from 'react-redux';
 import FlipMove from "react-flip-move";
-import Widgets from "./Widgets.js"
 
 
 

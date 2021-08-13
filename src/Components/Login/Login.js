@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { auth} from "./firebase.js";
-import { login, logout } from "./features/userSlice.js";
+import { auth} from "../Database/firebase.js";
+import { login, logout } from "../../features/userSlice.js";
 
 import "./Login.css";
 

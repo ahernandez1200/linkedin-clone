@@ -2,7 +2,6 @@ import React from 'react';
 import "./Widgets.css";
 import InfoIcon from "@material-ui/icons/Info";
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
-import FiberManualRecord from '@material-ui/icons/FiberManualRecord';
 
 
 function Widgets() {

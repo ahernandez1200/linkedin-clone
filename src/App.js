@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import './App.css';
-import { login, logout, selectUser } from './features/userSlice';
+import { login, logout, selectUser } from './features/userSlice.js';
 
-import Feed from './Feed';
-import { auth } from './firebase';
-import Header from './Header.js';
-import Login from './Login';
-import Sidebar from './Sidebar.js'
-import Widgets from './Widgets';
+import Feed from './Components/Feed/Feed.js';
+import { auth } from './Components/Database/firebase.js';
+import Header from './Components/Header/Header.js';
+import Login from './Components/Login/Login.js';
+import Sidebar from './Components/Sidebar/Sidebar.js'
+import Widgets from './Components/Widgets/Widgets.js';
 
 function App() {
 

@@ -2,15 +2,15 @@
 import React from 'react'
 import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
-import HeaderOption from './HeaderOption';
+import HeaderOption from './HeaderOption/HeaderOption.js';
 import HomeIcon from '@material-ui/icons/Home';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout, selectUser } from './features/userSlice';
-import { auth } from './firebase';
+import { logout, selectUser } from '../../features/userSlice';
+import { auth } from '../Database/firebase';
 
 
 function Header() {
