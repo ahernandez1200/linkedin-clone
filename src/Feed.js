@@ -13,6 +13,7 @@ import {db, auth} from "./firebase.js";
 import { selectUser } from './features/userSlice';
 import { useSelector } from 'react-redux';
 import FlipMove from "react-flip-move";
+import Widgets from "./Widgets.js"
 
 
 
